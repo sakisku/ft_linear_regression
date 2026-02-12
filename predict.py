@@ -12,7 +12,7 @@ try:
         print("Please enter a valid number for mileage.")
         exit(1)
     
-    exec(open("moddel.txt").read())
+    exec(open("model.txt").read())
     if 'teta0' not in locals() or 'teta1' not in locals():
         print("Model parameters are not properly defined.")
         exit(1)
