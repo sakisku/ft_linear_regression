@@ -26,7 +26,7 @@ try :
     plt.xlabel('Mileage (miles)')
     plt.ylabel('Price (USD)')
     plt.legend()
-    plt.show()
+    plt.savefig("plot.png")
 
 except FileNotFoundError:
     print("Required file not found. Please ensure 'data.csv' and 'model.txt' are present.")
